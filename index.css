@@ -14,10 +14,13 @@ body{
 
 #messageArea {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 20px;
     color: rgb(83, 175, 19);
+    font-size: 30px;
+    padding: 5px;
 }
+
 
 .table-style {
     position: absolute;
@@ -29,7 +32,7 @@ body{
 }
 
 table {
-    border-spacing: 0px;
+    border-collapse: collapse;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,11 +85,4 @@ input {
 
 .miss {
     background: url(images/miss.png) no-repeat center center;
-}
-
-#messageArea {
-    position: absolute;
-    top: 75px;
-    left: 80px;
-    color: rgb(83, 175, 19);
 }
