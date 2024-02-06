@@ -114,6 +114,8 @@ let view = {
     }
 };
 
+// control input
+
 let controller = {
     guesses: 0,
 
